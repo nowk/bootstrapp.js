@@ -55,8 +55,8 @@ app.setStatic = function(path) {
 /*
  * setRoutes adds a route MiddleEarth stack before static
  *
- * @param {Function} draw
- * @api Private
+ * @param {Function} routes
+ * @api public
  */
 
 app.setRoutes = function(routes) {
@@ -74,7 +74,7 @@ app.setRoutes = function(routes) {
  *
  * @param {Number} port
  * @param {Function} callback
- * @api Public
+ * @api public
  */
 
 app.listen = (function() {

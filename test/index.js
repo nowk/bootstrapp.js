@@ -4,7 +4,7 @@ var assert = require("chai").assert;
 var request = require("supertest");
 var app = require("..");
 
-describe("bootstrap", function() {
+describe("bootstrapp", function() {
   var server;
 
   before(function(done) {
